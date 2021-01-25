@@ -1,0 +1,14 @@
+{
+    "name": "greycat9515/shop",
+    "authors": [
+        {
+            "name": "greycat",
+            "email": "greycat9515@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0",
+        "zf1/zend-search-lucene": "^1.12",
+        "umisoft/phpmorphy": "^1.0"
+    }
+}

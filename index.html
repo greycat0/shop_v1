@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/tachyons.min.css">
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/semantic.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script defer src="/js/index.js"></script>
+    <title>Магазин</title>
+</head>
+
+<body class="flex flex-column">
+    <header class="flex fixed top-0 w-100 ph0 ph7-l pa0-xl items-end main-nav">
+        <a class="h-100 pa2" href="/"><img class="h-100 pointer grow" class="grow" src="/images/logo.png"></a>
+        <div class="dn flex-l flex-column h-100 flex-grow-1">
+            <div class="flex pt3 flex-grow-1">
+                <form action="search.php" class="ui action ml5-l input self-start" style="width: 500px">
+                    <input name="query" required placeholder="Футболки">
+                    <button class="ui icon button blue">
+                        <i class="fas fa-search white"></i>
+                    </button>
+                </form>
+                <div class="flex flex-column ml-auto">
+                    <div class="flex flex-column contacts">
+                        <a class="grow no-underline pointer hover-orange" href="tel:89555555555"><i
+                                class="fas fa-phone"></i>
+                            89555555555</a>
+                    </div>
+                    <div class="mt2">
+                        <div class="grow pointer blue hover-orange" style="font-size: 20px;">
+                            Заказать звонок
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="flex flex-wrap items-center menu">
+                <div class="flex flex-wrap mb3 ml5-l">
+                    <a href="/about.html" class="dim gray mh2 mb2 down">О нас</a>
+                    <a href="/catalog.html" class="dim gray mh2 mb2 down">Каталог товаров</a>
+                    <a href="/news.html" class="dim gray mh2 mb2 down">Новости</a>
+                    <a href="/contacts.html" class="dim gray mh2 mb2 down">Контакты</a>
+                </div>
+            </nav>
+        </div>
+        <div class="flex dn-l h-100 flex-grow-1">
+            <div class="ml-auto flex flex-column justify-center items-end mr4">
+                <div class="flex flex-column contacts">
+                    <a class="grow no-underline pointer hover-orange mb2" href="tel:89555555555"><i
+                            class="fas fa-phone"></i>
+                        89555555555</a>
+                    <div class="grow pointer blue hover-orange" style="font-size: 20px;">
+                        Заказать звонок
+                    </div>
+                </div>
+            </div>
+            <div class="ui accordion self-center">
+                <a class="title mr3"><i class="fas fa-bars gray pointer" style="font-size: 30px;"></i></a>
+
+                <div class="content w-100 absolute left-0 ui menu" style="margin-top: 30px;">
+                    <a href="/about.html" class="item dim">О нас</a>
+                    <a href="/catalog.html" class="item dim">Каталог товаров</a>
+                    <a href="/news.html" class="item dim">Новости</a>
+                    <a href="/contacts.html" class="item dim">Контакты</a>
+                    <div class="item ui input action w-100">
+                        <input placeholder="Футболки">
+                        <button class="ui icon button blue">
+                            <i class="fas fa-search white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="flex-grow-1 flex flex-column items-center mb5">
+        <section class="owl-carousel">
+            <div class="flex justify-center items-center relative cover bg-center"
+                style="background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.6)), url('images/people-2581913_1920.jpg');">
+                <article class="absolute-l white b-b" style="right: 100px;">
+                    <h1 class="b-b tc grow" style="font-size: 90px;">
+                        СКИДКИ ДО <span class="red">50%</span>
+                    </h1>
+                    <h2 class="b-b tc grow" style="font-size: 35px;">
+                        успей купить до 10 июня!
+                    </h2>
+                </article>
+
+            </div>
+            <!-- <div
+                style="background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.9)), url('images/clothing-store-984396_1920.jpg');">
+            </div>
+            <div
+                style="background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.9)), url('images/woman-3040029_1920.jpg');">
+            </div> -->
+        </section>
+
+
+
+
+        <section class="w-100 w-75-ns mt6 flex flex-column items-center">
+            <h1 class="grow b-b mb0">Новинки</h1>
+            <h3 class="grow normal mt1 tc" style="color: #999;">Новые товары по выгодным ценам только у нас</h3>
+            <div class="w-100">
+                <div class="w-100 w-100-m w-50-ns fl">
+                    <div class="pa3" style="height: 300px;">
+                        <div class="w-100 h-100 grow shadow cover bg-center"
+                            style="background-image: url(images/pen-4337524_1920.jpg);"></div>
+                    </div>
+                    <div class="pa3" style="height: 300px;">
+                        <div class="w-100 h-100 grow shadow cover bg-center"
+                            style="background-image: url(images/skateboard-5221914_1280.jpg);"></div>
+                    </div>
+                </div>
+                <div class="w-100 w-100-m w-25-ns fl">
+                    <div class="pa3" style="height: 300px;">
+                        <div class="w-100 h-100 grow shadow cover bg-center"
+                            style="background-image: url(images/headphone-1868612_640.jpg);"></div>
+                    </div>
+                    <div class="pa3" style="height: 300px;">
+                        <div class="w-100 h-100 grow shadow cover bg-center"
+                            style="background-image: url(images/mockup-5206354_640.jpg);"></div>
+                    </div>
+                </div>
+                <div class="dn db-l w-50 w-25-ns fl">
+                    <div class="pa3" style="height: 300px;">
+                        <div class="w-100 h-100 grow shadow cover bg-center"
+                            style="background-image: url(images/shoes-505471_640.jpg);"></div>
+                    </div>
+                    <div class="pa3" style="height: 300px;">
+                        <div class="w-100 h-100 grow shadow cover bg-center"
+                            style="background-image: url(images/nike-5226092_640.jpg);"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="w-100 w-75-ns mt6 flex flex-column items-center pa5 shadow">
+            <h1 class="grow b-b mb5 tc">Чем мы гордимся?</h1>
+            <div class="w-100 flex flex-column flex-row-l justify-around items-center">
+                <div class="flex tc grow mb4" style="width: 250px">
+                    <div class="flex flex-column items-center">
+                        <div class="flex items-center">
+                            <i class="fas fa-ruble-sign" style="font-size: 45px;" ;"></i>
+                            <div class="ml4 b">Низкая цена</div>
+                        </div>
+                        <div class="mt2" style="color: #999;">
+                            В нашем магазине только низкие цены
+                        </div>
+                    </div>
+                </div>
+                <div class="flex tc grow mb4" style="width: 250px">
+                    <div class="flex flex-column items-center">
+                        <div class="flex items-center">
+                            <i class="fa fa-check" style="font-size: 45px;" ;"></i>
+                            <div class="ml4 b">Качество</div>
+                        </div>
+                        <div class="mt2" style="color: #777;">
+                            В нашем магазине только низкие цены
+                        </div>
+                    </div>
+                </div>
+                <div class="flex tc grow mb4" style="width: 250px">
+                    <div class="flex flex-column items-center">
+                        <div class="flex items-center">
+                            <i class="fas fa-car-side" style="font-size: 45px;"></i>
+                            <div class="ml4 b">Быстрая доставка</div>
+                        </div>
+                        <div class="mt2" style="color: #777;">
+                            В нашем магазине только низкие цены
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="w-100 w-75-ns mt6 flex flex-column items-center">
+            <h1 class="grow mb0 b-b">Акция!</h1>
+            <h3 class="grow normal mt1 mb0 tc" style="color: #999;">Товары со скидками до <span class="red b">50%</span>
+            </h3>
+            <div class="w-100 flex justify-center flex-wrap">
+                <article
+                    class="flex flex-column grow br2 overflow-hidden ma3 w-100 w-20-ns shadow pointer request-button"
+                    style="min-height: 500px; min-width: 300px;">
+                    <div class="flex-grow-1 cover bg-center"
+                        style="background-image: url(images/headphone-1868612_640.jpg);"></div>
+                    <div class="pa2 pa4-ns tc">
+                        <h1 name="meta" class="mb3 b-b">Наушники Sony</h1>
+                        <h3 class="mv0 normal gray lh-solid strike">1000р</h3>
+                        <h1 class="mt0 red lh-solid b-b">500р</h1>
+                    </div>
+                </article>
+                <article
+                    class="flex flex-column grow br2 overflow-hidden ma3 w-100 w-20-ns shadow pointer request-button"
+                    style="min-height: 500px; min-width: 300px;">
+                    <div class="flex-grow-1 cover bg-center"
+                        style="background-image: url(images/mockup-5206354_640.jpg);"></div>
+                    <div class="pa2 pa4-ns tc">
+                        <h1 name="meta" class="mb3 b-b">Комплект одежды</h1>
+                        <h3 class="mv0 normal gray lh-solid strike">3000р</h3>
+                        <h1 class="mt0 red lh-solid b-b">2000р</h1>
+                    </div>
+                </article>
+                <article
+                    class="flex flex-column grow br2 overflow-hidden ma3 w-100 w-20-ns shadow pointer request-button"
+                    style="min-height: 500px; min-width: 300px;">
+                    <div class="flex-grow-1 cover bg-center"
+                        style="background-image: url(images/skateboard-5221914_1280.jpg);"></div>
+                    <div class="pa2 pa4-ns tc">
+                        <h1 name="meta" class="mb3 b-b">Роллерсерф</h1>
+                        <h3 class="mv0 normal gray lh-solid strike">2000р</h3>
+                        <h1 class="mt0 red lh-solid b-b">1500р</h1>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+
+        <section class="w-100 w-75-ns mt6 pv5 ph2 flex flex-column items-center">
+            <h1 class="grow mb0 b-b">Как нас найти?</h1>
+            <h3 class="mb3 grow normal tc" style="color: #999;">Москва Сити, Пресненская набережная, Москва, 123317</h3>
+            <iframe class="w-100" style="height: 600px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.500318915654!2d37.535263716062595!3d55.74981049969003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdc191c196f%3A0x59707d763d601738!2z0JzQvtGB0LrQstCwLdCh0LjRgtC4!5e0!3m2!1sru!2sru!4v1590745218464!5m2!1sru!2sru"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+        </section>
+
+
+
+        <section class="w-100 w-75-ns mt6 flex flex-column items-center">
+            <h1 class="grow mb0 b-b">Новости</h1>
+            <h3 class="grow normal mt1 mb0 tc" style="color: #999;">Что у нас нового</h3>
+            <div class="w-100 flex justify-center flex-wrap">
+                <article class="flex flex-column grow br2 overflow-hidden ma3 w-100 w-20-ns shadow pointer"
+                    style="min-height: 500px; min-width: 300px;">
+                    <div class="flex-grow-1 cover bg-center"
+                        style="background-image: url(images/headphone-1868612_640.jpg);"></div>
+                    <div class="pa2 pa3-ns">
+                        <p class="dim gray">21 марта 2020</p>
+                        <div class="tc">
+                            <h3 class="mb3">Акция: скидки 20% и 25%</h3>
+                            <p>
+                                Оставьте заявку на разработку сайта с 20 апреля по 31 мая и получите готовое решение со
+                                скидкой 20-25%! Расскажите о целях и задачах бизнеса нашим партнерам, они выберут для
+                                вас идеальное решение по самой низкой стоимости.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex flex-column grow br2 overflow-hidden ma3 w-100 w-20-ns shadow pointer"
+                    style="min-height: 500px; min-width: 300px;">
+                    <div class="flex-grow-1 cover bg-center"
+                        style="background-image: url(images/headphone-1868612_640.jpg);"></div>
+                    <div class="pa2 pa3-ns">
+                        <p class="dim gray">21 марта 2020</p>
+                        <div class="tc">
+                            <h3 class="mb3">Акция: скидки 20% и 25%</h3>
+                            <p>
+                                Оставьте заявку на разработку сайта с 20 апреля по 31 мая и получите готовое решение со
+                                скидкой 20-25%! Расскажите о целях и задачах бизнеса нашим партнерам, они выберут для
+                                вас идеальное решение по самой низкой стоимости.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex flex-column grow br2 overflow-hidden ma3 w-100 w-20-ns shadow pointer"
+                    style="min-height: 500px; min-width: 300px;">
+                    <div class="flex-grow-1 cover bg-center"
+                        style="background-image: url(images/headphone-1868612_640.jpg);"></div>
+                    <div class="pa2 pa3-ns">
+                        <p class="dim gray">21 марта 2020</p>
+                        <div class="tc">
+                            <h3 class="mb3">Акция: скидки 20% и 25%</h3>
+                            <p>
+                                Оставьте заявку на разработку сайта с 20 апреля по 31 мая и получите готовое решение со
+                                скидкой 20-25%! Расскажите о целях и задачах бизнеса нашим партнерам, они выберут для
+                                вас идеальное решение по самой низкой стоимости.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <section id="request-form"
+            class="flex justify-center items-center fixed z-999 left-0 right-0 bottom-0 top-0 visibility-hidden o-0"
+            style="transition: all .5s; background: rgba(0,0,0,.6);">
+            <form onsubmit="aaa(event)" class="flex flex-column items-center pa5 bg-white shadow br2">
+                <div class="ui input ma2" style="width: 300px;">
+                    <input name="name" placeholder="Имя" required>
+                </div>
+                <div class="ui input ma2" style="width: 300px;">
+                    <input name="tel" placeholder="Телефон" required>
+                </div>
+                <div class="ui input ma2" style="width: 300px;">
+                    <input name="email" placeholder="Почта" required>
+                </div>
+                <div class="ma3" style="width: 160px;">
+                    <button id="make-request-button" class="ui button primary w-100" style="transition: all .5s;">
+                        Оставить заявку
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer class="flex flex-column pt4">
+        <div class="flex-grow-1 flex">
+            <section class="flex-grow-1 flex-basis-0 flex flex-column items-center ml3">
+                <div class="flex flex-column">
+                    <p class="gray mb2 grow">ООО Компания</p>
+                    <p class="gray mb2 grow">89555555555</p>
+                    <p class="gray mb2 grow">myemail@email.ru</p>
+                    <p class="gray mb2 grow">Москва Сити, Пресненская набережная, Москва, 123317</p>
+                </div>
+            </section>
+            <section class="flex-grow-1 flex-basis-0 flex flex-column items-center">
+                <div class="flex flex-column">
+                    <a href="/about.html" class="gray mb2 grow pointer">О нас</a>
+                    <a href="/catalog.html" class="gray mb2 grow pointer">Каталог товаров</a>
+                    <a href="/news.html" class="gray mb2 grow pointer">Новости</a>
+                    <a href="/contacts.html" class="gray mb2 grow pointer">Контакты</a>
+                </div>
+            </section>
+            <section class="flex flex-grow-1 flex-basis-0 items-start">
+                <div class="mh2 grow"><img src="images/instagram.png" width="30px"></div>
+                <div class="mh2 grow"><img src="images/vk.png" width="30px"></div>
+                <div class="mh2 grow"><img src="images/whatsapp.png" width="30px"></div>
+                <div class="mh2 grow"><img src="images/facebook.png" width="30px"></div>
+            </section>
+        </div>
+        <hr class="w-90">
+        <div class="tc white mb2 grow">
+            2020 Все права защищены.
+        </div>
+    </footer>
+</body>
+
+</html>

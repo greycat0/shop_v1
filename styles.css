@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@700&display=swap');
+* {
+    cursor: default;
+}
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+h1 {
+    font-size: 40px;
+}
+.shadow {
+    box-shadow: 0 5px 30px -10px rgba(61, 72, 81, 0.75);
+}
+.main-nav {
+    height: 100px;
+    z-index: 10;
+    background: white;
+}
+.owl-item div{
+    height: calc(100vh - 100px) !important;
+}
+.main-nav .contacts{
+    font-size: 20px;
+}
+.menu a {
+    cursor: pointer;
+}
+main {
+    margin-top: 100px;
+}
+footer {
+    height: 300px;
+    background: #333;
+}
+.request-form-active {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+@media screen and (max-width: 1350px) {
+    .pa0-xl {
+       padding: 0 !important;
+    }
+}
+.down {
+    transition: all .15s linear !important;
+}
+.down:hover {
+    transform: translate(0, 3px);
+}
+.fit-cover {
+    object-fit: cover;
+}
+.flex-basis-0 {
+    flex-basis: 0;
+}
+.b-b {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.visibility-hidden {
+    visibility: hidden;
+}
